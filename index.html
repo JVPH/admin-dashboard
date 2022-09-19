@@ -5,34 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="search-bar">
-                <label for="site-search"> <img src="./assets/images/magnify.png" alt="search icon"> </label>
-                <input type="search" name="site-search" id="site-search">
+        <header class="header">
+            <div class="main-header-container">
+                <div class="search-bar">
+                    <label for="site-search"> <img src="./assets/images/magnify.png" alt="search icon"> </label>
+                    <input type="search" name="site-search" id="site-search">
+                </div>
+                <div>
+                    <button class="notification-btn"><img src="./assets/images/bell-ring.png" alt="bell icon"></button>
+                    <button class="user-btn">Jesus Vela</button>
+                </div>
             </div>
-            <div>
-                <button class="notification-btn"><img src="./assets/images/bell-ring.png" alt="bell icon"></button>
-                <button class="user-btn">Jesus Vela</button>
+            <div class="sub-header-container">
+                <div class="user-info">
+                    <div class="profile-picture"></div>
+                    <div>Hi there,<br>Jesus Vela (@vela)</div>
+                </div>
+                <div class="submit-form">
+                    <form action="#">
+                        <input type="submit" value="New">
+                        <input type="submit" value="Upload">
+                        <input type="submit" value="Share">
+                    </form>
+                </div>
             </div>
-        </header>
-        <header class="subheader">
-            <div class="user-info">
-                <div class="profile-picture"></div>
-                <div>Hi there,<br>Jesus Vela (@vela)</div>
-            </div>
-            <div class="submit-form">
-                <form action="#">
-                    <input type="submit" value="New">
-                    <input type="submit" value="Upload">
-                    <input type="submit" value="Share">
-                </form>                
-            </div>
-        </header>
-        <nav>
-            <header class="nav-header">Dashboard</header>
+        </header>        
+        <nav class="nav">
+            <header>Dashboard</header>
             <ul>
                 <li>Home</li>
                 <li>Profile</li>
@@ -40,53 +43,65 @@
                 <li>History</li>
                 <li>Tasks</li>
                 <li>Communities</li>
-            </ul>
-            <ul>
                 <li>Settings</li>
                 <li>Support</li>
                 <li>Privacy</li>
-            </ul>
+            </ul>            
         </nav>
-        <article class="article">
-            <div class="card">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="card">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="card">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="card">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="card">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="card">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-        </article>
-        <aside>
-            <div class="announcements">
-
-            </div>
-            <div class="trending">
-                <ul>
-                    <li>@tegan</li>
-                    <li>@mogan</li>
-                    <li>@ricky</li>
-                    <li>@heba</li>
-                </ul>
-            </div>
-        </aside>
-        
-    </div>
+        <main class="main">
+            <article class="article">
+                <div class="card">
+                    <p class="title">title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="card">
+                    <p class="title">title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="card">
+                    <p class="title">title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="card">
+                    <p class="title">title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="card">
+                    <p class="title">title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="card">
+                    <p class="title">title</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </article>
+            <aside>
+                <div class="announcements">
+                    <ul>
+                        <li>
+                            <p class="title">title</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </li>
+                        <li>
+                            <p class="title">title</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </li>
+                        <li>
+                            <p class="title">title</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="trending">
+                    <ul>
+                        <li>@tegan</li>
+                        <li>@mogan</li>
+                        <li>@ricky</li>
+                        <li>@heba</li>
+                    </ul>
+                </div>
+            </aside>
+        </main>       
+    </div>    
 </body>
 </html>
