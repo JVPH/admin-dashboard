@@ -138,9 +138,6 @@
 .user-panel > button {
     background-color: #FFFFFF;
     border-style: none;
-}
-
-.user-panel > button:hover {
     cursor: pointer;
 }
 
