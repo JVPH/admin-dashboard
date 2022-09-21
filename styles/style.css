@@ -42,10 +42,10 @@
     padding-top: 1rem;
     display: grid;
     grid-template-rows: 1fr 4fr 2fr;
-    gap: 2.5rem;
+    gap: 2rem;
     justify-content: start;
     font-weight: bold;
-    padding-left: 1rem;
+    padding-left: 2.5rem;
 }
 
 [class^="icon"] {
