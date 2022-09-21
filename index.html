@@ -12,19 +12,24 @@
         <header class="header">
             <div class="main-header-container">
                 <div class="search-bar">
-                    <label for="site-search"> <img src="./assets/images/magnify.png" alt="search icon"> </label>
-                    <input type="search" name="site-search" id="site-search">
+                    <label for="site-search"> <img class="icon-search" src="./assets/images/magnify.png" alt="search icon"> </label>
+                    <input class="search-input" type="search" name="site-search" id="site-search">
                 </div>
-                <div>
-                    <button class="notification-btn"><img src="./assets/images/bell-ring.png" alt="bell icon"></button>
+                <div class="user-panel">
+                    <button class="notification-btn"><img class="icon-bell" src="./assets/images/bell-ring.png" alt="bell icon"></button>
+                    <img class="profile-picture" src="./assets/images/cute-dog.jpg" alt="cute australian shepherd drawing by catalyststuff">
                     <button class="user-btn">Jesus Vela</button>
                 </div>
             </div>
             <div class="sub-header-container">
                 <div class="user-info">
-                    <div class="profile-picture"></div>
-                    <div>Hi there,<br>Jesus Vela (@vela)</div>
+                    <img class="profile-picture-bigger" src="./assets/images/cute-dog.jpg" alt="cute australian shepherd drawing by catalyststuff">
+                    <div class="greeting">
+                        <p>Hi there,</p>
+                        <p class="name-and-username">Jesus Vela (@vela)</p>
+                    </div>                    
                 </div>
+                
                 <div class="submit-form">
                     <form action="#">
                         <input type="submit" value="New">
@@ -40,7 +45,7 @@
                     <li><img class="icon-dashboard" src="./assets/images/view-dashboard.png" alt="view dashboard icon"> Dashboard</li>
                 </div>
                 <div class="nav-user-options">
-                    <li><img class="icon-home" src="./assets/images/home-outline.png" alt=""> Home</li>
+                    <li><img class="icon-home" src="./assets/images/home-outline.png" alt="">Home</li>
                     <li><img class="icon-profile" src="./assets/images/card-account-details-outline.png" alt=""> Profile</li>
                     <li><img class="icon-message" src="./assets/images/message-reply-outline.png" alt=""> Messages</li>
                     <li><img class="icon-history" src="./assets/images/history.png" alt=""> History</li>
@@ -57,80 +62,80 @@
         <main class="main">
             <article class="article">
                 <div class="card">
-                    <p class="title">title</p>
+                    <p class="title">Super Cool Project</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="card">
-                    <p class="title">title</p>
+                    <p class="title">Less Cool Project</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="card">
-                    <p class="title">title</p>
+                    <p class="title">Impossible App</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="card">
-                    <p class="title">title</p>
+                    <p class="title">Easy Peasy App</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="card">
-                    <p class="title">title</p>
+                    <p class="title">Ad Blocker</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="card">
-                    <p class="title">title</p>
+                    <p class="title">Money Maker</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </article>
             <div class="announcements">
+                
                 <ul>
                     <li>
-                        <p class="title">title</p>
+                        <p class="title">Site Maintenance</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </li>
                     <li>
-                        <p class="title">title</p>
+                        <p class="title">Community Share Day</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </li>
                     <li>
-                        <p class="title">title</p>
+                        <p class="title">Updated Privacy Policy</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </li>
                 </ul>
             </div>
             <div class="trending">
-                <ul>
-                    <li>@tegan</li>
-                    <li>@mogan</li>
-                    <li>@ricky</li>
-                    <li>@heba</li>
-                </ul>
+                <div class="trending-user">
+                    <img class="profile-picture pfp-trending" src="./assets/images/cute-dog.jpg" alt="">
+                    <div>
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
+                </div>
+                <div class="trending-user">
+                    <img class="profile-picture pfp-trending" src="./assets/images/cute-dog.jpg" alt="">
+                    <div>
+                        <p>@vela</p>
+                        <p>Super Cool Project</p>
+                    </div>
+                </div>
+                <div class="trending-user">
+                    <img class="profile-picture pfp-trending" src="./assets/images/cute-dog.jpg" alt="">
+                    <div>
+                        <p>@ricky</p>
+                        <p>Life Changing App</p>
+                    </div>
+                </div>
+                <div class="trending-user">
+                    <img class="profile-picture pfp-trending" src="./assets/images/cute-dog.jpg" alt="">
+                    <div>
+                        <p>@heba</p>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </div>
+                
+                
             </div>
-            <!-- <aside class="aside">
-                <div class="announcements">
-                    <ul>
-                        <li>
-                            <p class="title">title</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </li>
-                        <li>
-                            <p class="title">title</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </li>
-                        <li>
-                            <p class="title">title</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="trending">
-                    <ul>
-                        <li>@tegan</li>
-                        <li>@mogan</li>
-                        <li>@ricky</li>
-                        <li>@heba</li>
-                    </ul>
-                </div>
-            </aside> -->
+           
         </main>       
     </div>    
 </body>
