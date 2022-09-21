@@ -5,8 +5,6 @@
     padding: 0;
 }
 
-
-
 .container {
     font-family: 'Roboto', sans-serif;
     display: grid;
@@ -86,7 +84,6 @@
 }
 
 .announcements > ul,
-/* .announcements, */
 .trending,
 [class^="card"] {
     background-color: #FFFFFF;
